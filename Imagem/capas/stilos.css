@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    opacity: 80%;
+}
+table{
+    margin-top: -106%;
+    width: 1000px;
+    height: 1450px;
+    background-color: black;
+    margin-left: 13%;
+    border: 1px solid red;
+}
+img:hover{
+    opacity: 100%;
+    cursor: pointer;
+    box-shadow: 0px 0 50px rgb(84, 244, 255);
+}

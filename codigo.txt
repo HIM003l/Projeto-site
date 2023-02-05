@@ -1,0 +1,70 @@
+  <div id="box3">
+        <div id="bloco"></div>
+        <ul>
+            <li>
+               
+                   <id class="fundo"> <a href="https://animesonlinegames.net/animes/kimetsu-no-yaiba-todos-os-episodios"><img src="E:\DISC D\node js\Clone de site\Imagem\capas\7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg"> </id>
+                   <h1>
+                      DemonSlayer
+                   </h1>
+                </a>
+            </li>
+            <li>
+                <id class="fundo1">
+                    <a href="">
+                        <img src="E:\DISC D\node js\Clone de site\Imagem\capas\Jujutsu-Kainsen-Otageek-Crunchyroll.webp">
+                    </id>
+                      <h2>JujutsuKainsen</h2>
+                    </a>
+            </li>
+
+            #box3{width: 100%;height: 460px;position: relative;top: 553px;left: 2px;background-color: #000000;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+#box3 ul li{position: absolute;top: 550;list-style-type: none;}
+#box3 ul li img{width: 200px;height: 290px;position:absolute;top: 8px;left: 15px; border: solid #fff 1px ; border-top-left-radius: 12px;border-top-right-radius:12px;}
+#box3 ul li .fundo{width: 230px;height: 340px;background-color: rgb(31, 31, 31);position: absolute;top: 7px; border-radius: 8px;border: solid #b50909 2px;}
+#box3 ul li h1{position: absolute; top: 305px;left: 60px;font-size: 20px;width: 80px;}
+#box3 ul li a{color: #fff; text-decoration: none;}
+#box3 ul li a:hover{color: #b50909;}
+
+#box3 ul li .fundo1{width: 230px;height: 340px;background-color: rgb(31, 31, 31);position: absolute;top: 7px; left: 260px; border-radius: 8px;border: solid #b50909 2px;}
+#box3 ul li h2{position: relative; top: 302px;left: 310px;font-size: 20px;width: 80px;}
+
+#bloco {width: 100%;height: 80px;position: relative;top: 0px;background-color: #c20000;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+
+
+
+
+
+ <div id="box2">
+     <div class="login">
+        <a href="https://animesonlinegames.net/"><img src="E:\DISC D\node js\Clone de site\Imagem\Captura de tela 2022-11-06 175645.jpg"></a>
+     </div>
+        <div id="logo">
+   <a href="index.html"> </a>
+   
+</div>   
+    <section id="txt-contato">
+        <p>
+        <form name="meu_form" id="meu_form">
+        </p>
+        <p>
+        <!--area de pesquisa-->
+        <input type="search" id="nomeid" placeholder="Pesquisar"  name="pesquisa"/>
+        </p> 
+        <p>
+        <!--botão de enviar-->
+        <button type="submit" form="meu_form"><img src="E:\DISC D\node js\Clone de site\Imagem\5.png"></button>
+        </p>
+        </form>
+    </section>
+   </div>
+    <div id="container-principal">
+        <!--bamer do site-->
+        <section id="banner">
+            <img src="E:\DISC D\node js\Clone de site\Imagem\53cfa6111310021.621bb410ba5e0.png" alt="banner do site">
+        </section>
+         
+    </div>
+
+    <form method="get" class="pesquisaMenu" action="https://animesonlinegames.net/"> <input type="text" name="s" autocomplete="off" placeholder="Digite o nome do anime" id="searchbox" value=""> <input type="submit" id="buscaBtn"></form>
+
